@@ -1,0 +1,21 @@
+fun main() {
+    println("--- BÀI 1: In các số từ 1 đến 10 ---")
+    for (i in 1..10) {
+        print("$i ")
+    }
+    println("\n")
+
+    println("--- BÀI 2: Tính tổng 1 + 2 + ... + 100 ---")
+    var tong = 0
+    for (i in 1..100) {
+        tong += i
+    }
+    println("Tổng từ 1 đến 100 là: $tong\n")
+
+    println("--- BÀI 3: In các số chẵn từ 1 đến 20 ---")
+ 
+    for (i in 2..20 step 2) {
+        print("$i ")
+    }
+   
+}
